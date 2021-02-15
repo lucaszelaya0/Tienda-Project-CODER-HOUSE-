@@ -7,7 +7,7 @@ function CardBuilder(){
         const HTMLCard = 
         `<div id="card" class="card">
             <div class="image">
-                <img src="../img/${products[i].img}" alt="">
+                <img src="${products[i].img}" alt="">
             </div>
             <hr>
             <div class="description"> 
