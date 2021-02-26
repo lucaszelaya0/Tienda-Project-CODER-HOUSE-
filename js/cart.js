@@ -111,10 +111,13 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $(".finish-btn").click(function(){
-        localStorage.clear();
-        location.reload();
-        window.location='index.html';
-        alert('Gracias por finalizar su compra!')
+        if(localStorage.getItem('productosEnElCarrito')){
+            location.href = 'checkout.html';
+        }
+        else{
+            alert('No tienes productos en el Carrito');
+            window.location='tienda.html';
+        }
     });
 });
 guardarCantidadDeProductos();

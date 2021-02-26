@@ -221,3 +221,56 @@ footer textarea {
 }
 
 /* CHECKOUT SECCION*/
+/*Contacto CSS*/
+.checkout {
+  background-color: black;
+}
+
+.forms {
+  padding: 5%;
+  background-color: white;
+}
+.forms h2 {
+  text-align: center;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+}
+.forms h3 {
+  text-align: center;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 250%;
+}
+
+.checkout-ctn {
+  max-width: 500px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.checkout-forms {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: whitesmoke;
+  padding: 20px 40px;
+  outline: none;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.pay-btn {
+  float: right;
+  border: 0;
+  background: black;
+  padding: 12px 50px;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+}

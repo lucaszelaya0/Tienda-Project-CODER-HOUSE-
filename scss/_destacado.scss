@@ -215,3 +215,52 @@ footer{
 }
 
 /* CHECKOUT SECCION*/
+/*Contacto CSS*/
+.checkout{
+    background-color: $secondary;
+}
+.forms {
+    padding: 5%;
+    background-color: $quaternary;
+    h2{
+        text-align: center;
+        color: $secondary;
+        font-family: $primaryFont;
+        font-weight: bold;
+        font-size: 150%;
+    }
+    h3{
+        text-align: center;
+        color: $secondary;
+        font-family: $primaryFont;
+        font-weight: bold;
+        font-size: 250%;
+    }
+}
+.checkout-ctn{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.checkout-forms{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: whitesmoke;
+    padding: 20px 40px;
+    outline: none;
+    color: $secondary;
+    font-family: $primaryFont;
+}
+.pay-btn{
+    float: right;
+    border: 0;
+    background: $secondary;
+    padding: 12px 50px;
+    border-radius: 20px;
+    color: $primary;
+    font-family: $primaryFont;
+}
